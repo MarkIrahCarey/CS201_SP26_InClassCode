@@ -145,6 +145,7 @@ print (value3)
 """
 
 # for multi-if statements, we use the elif keyword, 
+"""
 temp = int(input("What is the temperature of your porridge: "))
 
 if temp > 100:
@@ -157,3 +158,50 @@ elif temp <= 0:
     print ("Frozen 3")
 else: # temp > 20 and temp < 30
     print ("Its just right!")
+"""
+
+"""
+theSum = 0
+data = input("Enter a number or just enter to quit: ")
+
+while data != "":
+    theSum += float(data)
+    print ("The sum is", theSum)
+    data = input("Enter another number: ")
+"""
+
+# for i in range(0, 13):
+
+count = 0
+while count < 13:
+    print(count)
+    count = count + 1 # count += 1
+
+count = 13
+while count > 0:
+    print(count)
+
+    if count == 5: break
+    count = count - 1 # count -= 1
+
+""" 
+while True:
+    number = float(input("Enter the numeric grade: "))
+
+    if number >= 0 and number <= 100: 
+        if number >= 95:
+            print ("You got an A+")
+        elif number >= 90:
+            print ("You got an A")
+        break
+    else:
+        print ("Not a valid grade!")
+"""
+
+import random
+
+for i in range(5):
+    print (random.randint(3, 10), end = " ")
+
+print ("BIBA " + "UOG!")
+print ("BIBA","UOG!","BIBA", sep = " ")
