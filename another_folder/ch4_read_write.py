@@ -25,7 +25,7 @@ with open("new_file.txt", "w") as f:
 """   
 
 # you can next a read and write
-with open('story.txt', 'r') as f:
+with open('another_folder/story.txt', 'r') as f:
     # read entire file
     # print(f.read())
 
